@@ -285,10 +285,10 @@ class dstiny:
             mask_l = mask & 0xFF
             mask_h = (mask >> 8) & 0xFF
 
-            #self.logger.info("mask_l:%d\tmask_h:%d" % (mask_l,mask_h))
+            # self.logger.info("mask_l:%d\tmask_h:%d" % (mask_l,mask_h))
             groupTel = dSTel('c', dSidx, [0x02, 0x01, addr, mask_l, mask_h])
             # groupTel=dSTel('c',dSidx,[0x02,0x01,addr,0x01,0x05])
-            #print groupTel.get()
+            # print groupTel.get()
             ans = self.write_read_verify(groupTel)
 
             return ans

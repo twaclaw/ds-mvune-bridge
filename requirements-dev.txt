@@ -1,5 +1,6 @@
 autopep8
 crcmod
 flake8
+pytest
 requests
 serial
