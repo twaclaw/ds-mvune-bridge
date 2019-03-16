@@ -1,4 +1,3 @@
 crcmod
-optparse
 requests
 serial
