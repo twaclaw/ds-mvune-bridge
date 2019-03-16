@@ -1,0 +1,5 @@
+crcmod
+json
+optparse
+requests
+serial

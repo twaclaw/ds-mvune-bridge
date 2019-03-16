@@ -1,0 +1,5 @@
+autopep8
+crcmod
+flake8
+requests
+serial
